@@ -1,0 +1,43 @@
+#form-controls {
+    border-top: 1px solid maroon;
+    width: 100%;
+    padding: 8px;
+}    
+
+#creds {
+    padding: 10px;
+    float: left;
+    width: 300px;
+    border-right: 1px dashed #ccc;
+}    
+
+#query {
+    padding: 10px;
+    float: left;
+    width: 500px;
+}    
+
+#results {
+    padding: 10px;
+    float: left;
+    border-top: 1px dashed #ccc;
+    padding: 8px;
+    clear: left;
+    width: 800px;
+}    
+
+table { 
+    border-spacing: 2px;
+}    
+
+th {
+    background-color: maroon;
+    color: #fff;
+    width: 200px;
+    text-align: left;
+}   
+
+td {
+    background-color: #555;
+    color: #fff;
+}
