@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="_Default" %>
+<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="_Default" %>
 <%@ Import namespace="System.Data.SqlClient"%>
 
 <!DOCTYPE html>
@@ -13,7 +13,7 @@
 	<br/><br/>
 	<img src="windockslogo.png">
 	<br/><br/>
-        <h1>WinDocks .NET + SQL Server Container Demo</h1>
+        <h1>Windocks Git Demo (the files in this app were git pulled to your container using a command in the dockerfile)</h1>
 
         <div id="form-controls">
             <section id="creds">
