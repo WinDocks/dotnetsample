@@ -21,7 +21,7 @@ public partial class _Default : System.Web.UI.Page
             if (ConfigurationManager.ConnectionStrings.Count > 0)
             {
                 Dictionary<String, String> connectionDict = new Dictionary<String, String>();
-                string connectionString = ConfigurationManager.ConnectionStrings["myConnectionString"].ConnectionString;
+                string connectionString = ConfigurationManager.ConnectionStrings["myConnectionString1"].ConnectionString;
                 string[] connectionParams = connectionString.Split(';');
 
                 foreach (string param in connectionParams)
